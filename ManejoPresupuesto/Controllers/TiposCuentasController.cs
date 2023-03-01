@@ -7,6 +7,7 @@ namespace ManejoPresupuesto.Controllers
     {
         public IActionResult Crear()
         {
+            
             return View();
         }
 
