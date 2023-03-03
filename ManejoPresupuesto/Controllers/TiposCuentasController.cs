@@ -29,7 +29,7 @@ namespace ManejoPresupuesto.Controllers
             }
 
             tipoCuenta.UsuarioId = 1;
-            repositorioTiposCuentas.crear(tipoCuenta);
+            repositorioTiposCuentas.Crear(tipoCuenta);
             return View();
         }
 

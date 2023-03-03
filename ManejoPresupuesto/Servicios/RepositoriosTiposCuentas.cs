@@ -6,9 +6,9 @@ namespace ManejoPresupuesto.Servicios
 {
     public interface IRepositorioTiposCuentas
     {
-        void crear(TipoCuenta tipoCuenta);
+        void Crear(TipoCuenta tipoCuenta);
     }
-    public class RepositoriosTiposCuentas
+    public class RepositoriosTiposCuentas : IRepositorioTiposCuentas
     {
         private readonly string connectionString;
         public RepositoriosTiposCuentas(IConfiguration configuration)
