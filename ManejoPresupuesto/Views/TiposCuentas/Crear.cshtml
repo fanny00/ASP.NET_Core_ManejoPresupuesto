@@ -20,6 +20,10 @@
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 
-    @section Scripts {
-        <partial name="_ValidationScriptsPartial"/>
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
+}
