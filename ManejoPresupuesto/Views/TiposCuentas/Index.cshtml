@@ -26,7 +26,10 @@
                         asp-action="Editar" 
                         asp-route-id="@tipoCuenta.Id"
                         >Editar</a>
-                    <a class="btn btn-danger">Borrar</a>
+                    <a class="btn btn-danger"
+                        asp-action="Borrar"
+                        asp-route-id="@tipoCuenta.Id"
+                        >Borrar</a>
                 </td>
                 <td>
                     @tipoCuenta.Nombre
